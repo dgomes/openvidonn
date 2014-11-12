@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="graph_missing">#3c3c3c</color>
+    <color name="graph_steps_accomplished">#40BEAB</color>
+    <color name="graph_calories_accomplished">#be394c</color>
+    <color name="graph_distance_accomplished">#ff3659be</color>
+    <color name="graph_history_selected">#40DE7F</color>
+    <color name="graph_history">#ff288f52</color>
+
+
+    <color name="BMR_little_to_no_exercise_color">#ffa1a1</color>
+    <color name="BMR_light_exercise_color">#ff7171</color>
+    <color name="BMR_moderate_color">#ff5151</color>
+    <color name="BMR_heavy_exercise_color">#ff3131</color>
+    <color name="BMR_very_heavy_exercise_color">#ff0000</color>
+</resources>

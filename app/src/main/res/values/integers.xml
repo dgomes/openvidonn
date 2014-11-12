@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_steps">10000</integer>
+    <integer name="graph_inner_circle_ratio">200</integer>
+    <integer name="max_calories">4000</integer>
+    <integer name="pref_default_step_goal">10000</integer>
+    <integer name="max_distance">40000</integer>
+</resources>

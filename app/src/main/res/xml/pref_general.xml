@@ -1,0 +1,59 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<CheckBoxPreference
+        android:key="social_preference"
+        android:title="@string/pref_title_social_recommendations"
+        android:summary="@string/pref_description_social_recommendations"
+        android:defaultValue="true" /> -->
+    <PreferenceCategory
+        android:key="first_preferencescreen"
+        android:title="@string/myinfo">
+
+        <ListPreference
+            android:key="gender"
+            android:title="@string/Gender"
+            android:entries="@array/Gender"
+            android:entryValues="@array/Gender"
+            android:defaultValue="@string/male"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+
+        <!-- TODO actually use the original project... and not a blunt copy :( -->
+        <com.diogogomes.DatePreference
+            android:key="birthday"
+            android:title="@string/birthday"
+            android:defaultValue="1980.01.01" /> -->
+
+        <EditTextPreference
+            android:key="weight"
+            android:title="@string/pref_title_weight"
+            android:defaultValue="@integer/pref_default_weight"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            />
+
+        <EditTextPreference
+            android:key="height"
+            android:title="@string/pref_title_height"
+            android:defaultValue="@integer/pref_default_height"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="second_preferencescreen"
+        android:title="@string/goals">
+
+        <EditTextPreference
+            android:key="steps_goal"
+            android:title="@string/step_goal"
+            android:defaultValue="@integer/pref_default_step_goal"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+        />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
