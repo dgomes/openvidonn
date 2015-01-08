@@ -18,8 +18,7 @@
             android:negativeButtonText="@null"
             android:positiveButtonText="@null" />
 
-        <!-- TODO actually use the original project... and not a blunt copy :( -->
-        <com.diogogomes.DatePreference
+        <org.bostonandroid.datepreference.DatePreference
             android:key="birthday"
             android:title="@string/birthday"
             android:defaultValue="1980.01.01" /> -->
