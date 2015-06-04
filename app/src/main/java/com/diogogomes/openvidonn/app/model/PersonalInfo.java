@@ -15,7 +15,7 @@ package com.diogogomes.openvidonn.app.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.diogogomes.DatePreference;
+import org.bostonandroid.datepreference.DatePreference;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

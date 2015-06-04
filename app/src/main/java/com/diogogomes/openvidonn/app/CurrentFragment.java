@@ -38,7 +38,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.daimajia.numberprogressbar.NumberProgressBar;
-import com.diogogomes.DatePreference;
+import org.bostonandroid.datepreference.DatePreference;
 import com.diogogomes.openvidonn.app.model.DayHistory;
 import com.diogogomes.openvidonn.app.model.History;
 import com.diogogomes.openvidonn.app.model.Movement;

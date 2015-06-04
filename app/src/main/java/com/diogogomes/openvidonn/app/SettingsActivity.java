@@ -37,7 +37,7 @@ import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.widget.Toast;
 
-import com.diogogomes.DatePreference;
+import org.bostonandroid.datepreference.DatePreference;
 import com.diogogomes.openvidonn.app.model.PersonalInfo;
 
 import java.text.ParseException;

@@ -26,4 +26,6 @@ proguard/
 *.log
 
 #dependencies
-#libs/
+
+# Android studio config
+.idea
