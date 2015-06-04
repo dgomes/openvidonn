@@ -26,4 +26,4 @@ proguard/
 *.log
 
 #dependencies
-libs/
+#libs/
